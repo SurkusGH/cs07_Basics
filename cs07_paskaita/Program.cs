@@ -7,7 +7,10 @@ namespace cs07_paskaita
         static void Main(string[] args)
         {
             Console.WriteLine("cs07_PASKAITA!");
-            #region TEORIJA - panašu, kad bus kartojimas, ne teorija
+            #region TEORIJA - Turėjo būti metodai, bet panašu, kad bus kartojimas, ne teorija
+
+            //
+
             #endregion
 
             PineTree();
