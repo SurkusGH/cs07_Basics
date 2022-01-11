@@ -24,14 +24,14 @@ namespace cs07_paskaita
 
         public static void PineTree()
         {
-            // Nusipieškime eglutę iš žvaigždučių, nes anksčiau praleidau ¯\_(ツ)_/¯ 
+            // Nusipieškime eglutę iš žvaigždučių, nes anksčiau praleidau
             Console.WriteLine("Vartotojau kokio dydžio bus tavo eglutė? (eilučių)");
             int size = int.Parse(Console.ReadLine());
             Console.WriteLine("O kiek šakų turės tavoeglutė? (int)");
             int branches = int.Parse(Console.ReadLine());
             for (int b = 0; b < branches; b++)
             {
-                for (int x = 1; x <= size*2+1; x+=2)        // <-- nenaudokite šito sprendimo kaip pavyzdžio
+                for (int x = 1; x <= size*2+1; x+=2)        // <-- nenaudoti šito sprendimo kaip pavyzdžio
                 {                                           //     bet paaiškinu kodėl *2+1, nes x žingsnis yra +2 (todtodėl starsize*2)
                     int space = ((size*2+1) - x) / 2 + 1;   //     +1, nes, nes skaičiuojame nuo 1
                     Console.WriteLine(" ");                 //     esu įsitikinęs, kad google galima rasti žmoniškesnį sprendimą
